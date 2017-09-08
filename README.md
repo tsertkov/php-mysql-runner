@@ -1,6 +1,8 @@
 # php-mysql-runner
 
-Task runner image with php and mysql client.
+[![](https://badge.imagelayers.io/tsertkov/php-mysql-runner:latest.svg)](https://imagelayers.io/?images=tsertkov/php-mysql-runner:latest 'Get your own badge on imagelayers.io')
+
+> Task runner image with php and mysql client.
 
 # Building
 
