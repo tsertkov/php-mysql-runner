@@ -12,3 +12,18 @@ See example task scripts here: https://github.com/tsertkov/docker-compose-task-r
 docker build -t tsertkov/php-mysql-runner
 docker push tsertkov/php-mysql-runner
 ```
+
+# Dockerfile
+
+```
+FROM php:latest
+
+RUN apt-get update && apt-get install -y \
+  mysql-client \
+  less \
+  vim \
+  --no-install-recommends && rm -r /var/lib/apt/lists/* \
+  && docker-php-ext-install pdo_mysql
+
+CMD ["bash"]
+```
