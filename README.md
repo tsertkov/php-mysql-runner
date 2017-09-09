@@ -1,6 +1,6 @@
 # php-mysql-runner
 
-[![](https://badge.imagelayers.io/tsertkov/php-mysql-runner:latest.svg)](https://imagelayers.io/?images=tsertkov/php-mysql-runner:latest 'Get your own badge on imagelayers.io')
+[![](https://images.microbadger.com/badges/image/tsertkov/php-mysql-runner.svg)](https://microbadger.com/images/tsertkov/php-mysql-runner "Get your own image badge on microbadger.com")
 
 > Task runner image with php and mysql client.
 
